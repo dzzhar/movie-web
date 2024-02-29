@@ -218,6 +218,7 @@ nav {
   font-weight: 600;
   color: var(--red-color);
   text-align: end;
+  margin-bottom: 5rem;
 }
 
 /* Footer Style */
@@ -225,7 +226,7 @@ nav {
 footer {
   background-color: var(--grey-color);
   color: var(--white-color);
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 .footer {
@@ -273,6 +274,7 @@ footer {
   flex-direction: column;
   font-size: var(--h3-font);
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .footer-gmail {
