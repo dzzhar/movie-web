@@ -7,6 +7,10 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 /* Style Guide */
 :root {
   --h1-font: 3rem;
@@ -218,7 +222,7 @@ nav {
   font-weight: 600;
   color: var(--red-color);
   text-align: end;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 /* Coming Style */
@@ -255,10 +259,6 @@ nav {
   max-width: 100%;
 }
 
-.coming-movies::-webkit-scrollbar {
-  display: none;
-}
-
 .coming-movies-detail {
   display: flex;
   flex-direction: column;
@@ -266,14 +266,14 @@ nav {
   flex-grow: 1;
 }
 
-.coming-movies-detail:hover {
-  opacity: 0.8;
-}
-
 .coming-detail-poster {
   width: 300px;
   height: 438px;
   object-fit: cover;
+}
+
+.coming-detail-poster:hover {
+  opacity: 0.8;
 }
 
 .coming-detail-title {
