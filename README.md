@@ -16,7 +16,7 @@ Go to the project directory
   cd movie-web
 ```
 
-Start the server on 127.0.0.1
+Start the project on 127.0.0.1
 
 ## Reference
 
